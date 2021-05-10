@@ -131,6 +131,18 @@ void ProcessDead()
     system("cls");
     GotoXY(20, 18);
     printf("Dead, type y to continue or anykey to exit");
+    GotoXY(0, 5);
+    Sleep(100);    cout << "\t\t**********      ***********      ***********" << '\n';
+    Sleep(100);    cout << "\t\t**********      ***********      ***********" << '\n';
+    Sleep(100);    cout << "\t\t***             **       **      ***        " << '\n';
+    Sleep(100);    cout << "\t\t***             **       **      ***        " << '\n';
+    Sleep(100);    cout << "\t\t**********      **       **      ***********" << '\n';
+    Sleep(100);    cout << "\t\t**********      **       **      ***********" << '\n';
+    Sleep(100);    cout << "\t\t       ***      **       **              ***" << '\n';
+    Sleep(100);    cout << "\t\t       ***      **       **              ***" << '\n';
+    Sleep(100);    cout << "\t\t**********      ***********      ***********" << '\n';
+    Sleep(100);    cout << "\t\t**********      ***********      ***********" << '\n';
+    Sleep(500);
  
 }
 //Hàm xử lý khi người băng qua đường thành công
